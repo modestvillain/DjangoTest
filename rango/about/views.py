@@ -4,4 +4,5 @@ from django.http import HttpResponse
 # A view called index
 # A view takes in at least one argument
 def index(request):
-	return HttpResponse("Rango says: Hello world! <br/> <a href='/rango/about'>About</a>")
+	return HttpResponse('<a href="/rango/">Index</a>')
+	# return HttpResponse("IT'S AN ABOUT PAGE NOW!")
